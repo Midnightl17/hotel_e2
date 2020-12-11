@@ -2,13 +2,13 @@
 
 _Gestor de Reservas Hoteleras corresponde a un desafío propuesto por la UNAL en el marco del programa MisionTic 2022 Ciclo 3 en colaboración con interacpedia (https://interacpedia.com/)._
 
-_**Pregunta del desafió:** ¿Cómo podríamos agilizar el proceso de compra haciendo uso de las nuevas tecnologías?_
+_**Pregunta del desafió:** ¿Cómo crear una solución tecnológica para gestionar las reservas de habitaciones de un hotel?_
 
 _**Área Temática:** Tecnología / Información_
 
-_**Descripción:** La cadena de valor cuenta con varios intermediarios, incrementando costos y tiempos de entrega para él cliente._
+_**Descripción:** Los hoteles tienen problemas para gestionar sus reservas de una forma autónoma y tienen que recurrir a plataformas tecnológicas de terceros que no se acomodan a sus necesidades._
 
-_**Caso explicativo:** Hay una fiel seguidora de la marca. Sin embargo, desde hace cuatro meses venía escribiendo al chat de soporte que la organización debía de adentrarse en el mundo de las ventas online. La competencia lo hacía y le permitía ofrecer productos a menor costo y con un tiempo de espera corto. Desde hace menos de un mes identificamos que nuestra fiel seguidora dejó de comprar nuestros productos._
+_**Caso explicativo:** Un hotel genera una reserva telefónica. Cuando el cliente llega a al hotel, por falta de trazabilidad en la información, no se encuentra la reserva realizada por el cliente._
 
 _**Objetivo esperado:** Prototipo funcional de aplicación web_
 
