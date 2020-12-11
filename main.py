@@ -9,7 +9,7 @@ from fastapi import HTTPException
 
 app = FastAPI() 
 
-@app.get("/get_cliente/{username}")
+@app.get("/get_cliente/")
 async def read_cliente(username: str):
     status = clientes_db.get_cliente(username)
 
