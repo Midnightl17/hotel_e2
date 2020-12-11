@@ -12,6 +12,7 @@ _**Caso explicativo:** Hay una fiel seguidora de la marca. Sin embargo, desde ha
 
 _**Objetivo esperado:** Prototipo funcional de aplicación web_
 
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -24,17 +25,9 @@ _Gestor de Reservas Hotelera utilizar la arquitectura de 3 capas._ **hotel_e2** 
 
 ```
 Python 3.8.5
-```
-```
 pip 20.0.2
-```
-```
 Fastapi 0.62.0
-```
-```
 Uvicorn 0.12.3
-```
-```
 Pydantic 1.7.3
 ```
 
@@ -48,13 +41,16 @@ _En la carpeta raíz del proyecto se encuentra un archivo llamado requirements.t
 pip3 install -r requirements.txt
 ```
 
+
 ## Pruebas locales de ejecución ⚙️
 
 _Para las pruebas se esta utilizando el software_ **Postman.** _En futuras actualizaciones se documentara esta sección._
 
+
 ## Despliegue 📦
 
 _El despliegue fue realizado en_ **Heroku** _(https://hotel-pj.herokuapp.com/). En futuras actualizaciones se documentara esta sección._
+
 
 ## Autores ✒️
 
@@ -63,6 +59,7 @@ _El despliegue fue realizado en_ **Heroku** _(https://hotel-pj.herokuapp.com/). 
 * **Lorena Orjuela** - *Integrante*
 * **Jaime Contreras** - *Integrante*
 * **Luis Diaz** - *Integrante*
+
 
 ## Nota:
 _La documentación de la actual capa (Lógica) aun se encuentra en proceso_
