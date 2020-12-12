@@ -54,11 +54,11 @@ _El despliegue fue realizado en_ **Heroku** _(https://hotel-pj.herokuapp.com/). 
 
 ## Autores ✒️
 
-* **Daniel Fabra** - *Lider* - [DanielFabra](https://github.com/DanielFabra)
-* **Juan Suarez** - *Integrante*
-* **Lorena Orjuela** - *Integrante*
-* **Jaime Contreras** - *Integrante*
-* **Luis Diaz** - *Integrante*
+* **Daniel Fabra** - *Líder de equipo - Programador* - GitHub -> [DanielFabra](https://github.com/DanielFabra)
+* **Lorena Orjuela** - *Líder de documentación* - GitHub -> [lorenaorjuelaruiz](https://github.com/lorenaorjuelaruiz)
+* **Luis Diaz** - *Validación - Programador* - GitHub -> [Midnightl17](https://github.com/Midnightl17)
+* **Juan Suarez** - *Calidad - Programador* - GitHub -> [Jsuarez1093](https://github.com/Jsuarez1093)
+* **Jaime Contreras** - *Testing - Programador* - GitHub -> [contrejandroid](https://github.com/contrejandroid)
 
 
 ## Nota:
