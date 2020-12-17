@@ -16,7 +16,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:8080",
-    'https://hotelappe2.herokuapp.com/'
+    'https://hotelappe2.herokuapp.com'
 ]
 
 app.add_middleware(
