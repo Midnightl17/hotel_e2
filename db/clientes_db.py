@@ -3,32 +3,34 @@ from pydantic import BaseModel
 
 #modelo tipo de dato entrada
 class registroCliente(BaseModel):
-    password: str
+    username: str
     nombre: str
     apellido: str
-    edad: int
+    email: str
     telefono: int
-    direccion: str
+    edad: int
     idioma: str
+    password: str
 
 #definicion base de datos cliente
 database_clientes = Dict[str, registroCliente]
 database_clientes = {
     "fabra23": registroCliente(**{
-        "password": "fabra2020",
-        "nombre": "Daniel",
-        "apellido": "Fabra",
-        "edad": 23,
-        "telefono": 3023018482,
-        "direccion": "Algun lugar",
-        "idioma": "Español"
+        'username': 'fabra23',
+        'nombre': 'Daniel',
+        'apellido': 'Fabra',
+        'email': 'daniel_fabra@outlook.com',
+        'telefono': 3023018482,
+        'edad': 23,
+        'idioma': 'Español',
+        'password': '1234',
     })
 }
 
 #funciones (querys) para base de datos
-def get_cliente(nombre_usuario: str):
-    if nombre_usuario in database_clientes.keys():
-        return database_clientes[nombre_usuario]
+def get_cliente(username: str):
+    if username in database_clientes.keys():
+        return database_clientes[username]
     else:
         return None
 

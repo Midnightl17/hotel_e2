@@ -1,14 +1,14 @@
 from pydantic import BaseModel
 
 class new_registro(BaseModel):
-    password: str
     username: str
     nombre: str
     apellido: str
-    edad: int
+    email: str
     telefono: int
-    direccion: str
+    edad: int
     idioma: str
+    password: str
 
 class get_registro(BaseModel):
     nombre: str
