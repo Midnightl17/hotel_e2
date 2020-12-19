@@ -36,10 +36,14 @@ async def read_cliente(username: str):
         #resul = cliente_model.get_registro(tatus["nombre"]) 
         return {"out": True}
 
-@app.post("/post_cliente")
+@app.post("/post_cliente/")
 async def add_cliente(data: cliente_model.new_registro):
     if data.username in clientes_db.database_clientes.keys():
         raise HTTPException(status_code=404, detail="El usuario ya existe")
     else:
         clientes_db.post_cliente(data.username, data)
         return {"out": True}
+
+@app.post("/post_auth_cliente/")
+async def registro(data: cliente_model.login):
+    return clientes_db.post_auth_cliente(data.username,data.password)

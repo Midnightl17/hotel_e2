@@ -15,3 +15,7 @@ class get_registro(BaseModel):
     apellido: str
     edad: int
     telefono: int
+
+class login(BaseModel):
+    username: str
+    password: str

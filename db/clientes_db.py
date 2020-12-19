@@ -34,6 +34,13 @@ def get_cliente(username: str):
     else:
         return None
 
+def post_auth_cliente(username: str, password: str): 
+    if username in database_clientes.keys():
+        usuario_encontrado = database_clientes[username]
+        return usuario_encontrado.password == password
+    
+    return "Las credenciales son incorrectas"
+
 def post_cliente(nombre_usuario: str, data_cliente: registroCliente):
     database_clientes[nombre_usuario] = data_cliente
 
